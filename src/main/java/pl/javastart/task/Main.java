@@ -20,9 +20,6 @@ public class Main {
             System.out.println(processor);
             processor.overlock();
             processor.overlock();
-            processor.overlock();
-            memory.overlock();
-            memory.overlock();
             memory.overlock();
             System.out.println(processor);
         } catch (HardwareValueOrNameException | MemoryOverlockingException |

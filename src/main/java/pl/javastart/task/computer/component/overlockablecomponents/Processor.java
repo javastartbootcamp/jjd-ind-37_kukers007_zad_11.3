@@ -14,7 +14,7 @@ public class Processor extends OverlockableComponents {
     public void overlock() {
         setFrequency(getFrequency() + INCREASE_FREQUENCY_VALUE);
         setTemperature(getTemperature() + INCREASE_TEMPERATURE_VALUE);
-        if (getTemperature() > getMaxTemperature()) {
+        if (getTemperature() >= getMaxTemperature()) {
             throw new ProcesorOverlockingException();
         }
     }

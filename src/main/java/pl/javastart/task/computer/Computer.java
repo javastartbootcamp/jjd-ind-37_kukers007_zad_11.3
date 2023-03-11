@@ -5,9 +5,9 @@ import pl.javastart.task.computer.component.overlockablecomponents.Memory;
 import pl.javastart.task.computer.component.overlockablecomponents.Processor;
 
 public class Computer {
-    Processor processor;
-    HardDrive hardDrive;
-    Memory memory;
+    private Processor processor;
+    private HardDrive hardDrive;
+    private Memory memory;
     private String name;
     private double price;
 
